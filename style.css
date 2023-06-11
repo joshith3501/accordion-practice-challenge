@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-txt-clr-one: 235 29% 16%;
+  --primary-txt-clr-two: 14 88% 65%;
+  --bg-grad-start: 273 75% 66%;
+  --bg-grad-stop: 240 73% 65%;
+  --neutral-txt-clr-one: 237 12% 33%;
+  --neutral-txt-clr-two: 240 6% 50%;
+  --neutral-divider-clr: 240 5% 91%;
+  --ff-kumbh: 'Kumbh Sans', sans-serif;
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  border: none;
+  background-color: purple;
+  height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-kumbh);
+  background: linear-gradient(180deg , hsl(var(--bg-grad-start)), hsl(var(--bg-grad-stop)));
+  background-repeat:no-repeat;
+}
+
+.container {
+  
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  min-height:65%;
+  max-width:65%;
+  border-radius: 20px;
+  box-shadow: 0 30px 30px -17px rgba(0,0,0,0.4);
+  z-index: 10;
+}
+
+.graphic-container {
+  position:relative;  
+  display: flex;
+  flex-direction: row;
+  background-image: url('/images/bg-pattern-desktop.svg');
+  background-size:150%;
+  background-position:140% center;
+  background-repeat:no-repeat;
+}
+
+.box-image {
+  position: absolute;
+  transform: translate(-53%, 95%);
+  z-index: 30;
+}
+
+.woman-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100%;
+  z-index: 0;
+}
+
+.woman-image-container img{
+  height:65%;
+  transform: translateX(-19%);
+  z-index: -10;
+}
+
+.faq-container {
+  padding: 5px;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+
+/* 
+@media only screen and (min-width:400px) and (max-width:1300px) {
+  .container {
+    flex-direction:column;
+  }
+  .woman-image-container{
+    overflow:visible;
+  }
+
+  .woman-image-container img {
+    transform:initial;
+  }
+
+  .container {
+    height:initial;
+  }
+} */
+
+@media (max-width: 1200px) {
+
+  body {
+    height:150vh;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+}
