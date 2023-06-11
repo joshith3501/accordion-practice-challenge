@@ -1,7 +1,7 @@
 # FAQ accordion card challenge
 ___
 
-This is repository is exclusively for practising the FAQ accordion card challenge, which is available on the frontend mentor challenge website
+This repository is exclusively for practising the FAQ accordion card challenge, which is available on the frontend mentor challenge website
 
 The link to challenge is here (https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam)
 
