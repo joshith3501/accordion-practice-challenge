@@ -158,21 +158,54 @@ body {
     height:100%;
   }
   .container {
+    margin-top: 8rem;
     flex-direction: column;
     width:20rem;
     height:fit-content;
+    margin-bottom:30px;
+    padding-bottom:20px;
   }
 
   .graphic-container {
-    background-image: url('bg-mobile-pattern.svg');
+    background-image: url('/images/bg-pattern-mobile.svg');
+    background-position:45% ;
+  }
+
+  .woman-image-container {
+    overflow:initial;
+    height:7rem;
+  }
+
+  .woman-image {
+    height:12rem;
+    transform:translate(13%, -60%);
+  }
+
+  .box-image {
+    top: -43px;
+    left:25px;
+    height: 100px;
   }
   
   .faq-container {
     width: 100%;
+    padding-top:0;
+    padding:20px;
+    align-items: center;
+  }
+
+  .faq-container > h1 {
+    margin: 0;
+    padding-bottom:15px;
   }
 
   .faq-element{
     width:100%;
+    font-size:12px;
+  }
+
+  .attribution{
+    font-size:11px;
   }
 
 }
