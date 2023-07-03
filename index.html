@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
@@ -21,23 +22,35 @@
     </div>
     <div class="faq-container">
       <h1>FAQ</h1>
-      <div class="question"><p>How many team members can I invite?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"></div>
-      <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
-      team members for the Premium plan.</div>
-    
-      <div class="question">
-        <p>What is the maximum file upload size?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"></div>
-      <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
-    
-      <div class="question"><p>How do I reset my password?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon">  </div>
-      <div class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
-      A reset link will be emailed to you.</div>
-    
-      <div class="question"><p>Can I cancel my subscription?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon">  </div>
-      <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
-    
-      <div class="question"><p>Do you provide additional support?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"> </div>
-      <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+      
+      <div class="faq-element">
+        <div class="question"><p>How many team members can I invite?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"></div>
+        <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on 
+        team members for the Premium plan.</div>
+      </div>
+
+      <div class="faq-element">
+        <div class="question">
+          <p>What is the maximum file upload size?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"></div>
+        <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
+      </div>
+
+      <div class="faq-element act">
+        <div class="question"><p>How do I reset my password?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon">  </div>
+        <div class="answer">Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.</div>
+      </div>
+
+      <div class="faq-element">
+        <div class="question"><p>Can I cancel my subscription?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon">  </div>
+        <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
+      </div>
+      
+
+      <div class="faq-element">
+        <div class="question"><p>Do you provide additional support?</p><img src="/images/icon-arrow-down.svg" alt="arrow-icon"> </div>
+        <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
+      </div>
     </div>
   </div>
  
@@ -45,5 +58,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
+  <script src="index.js"></script>
 </body>
 </html>
