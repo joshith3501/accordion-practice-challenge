@@ -58,7 +58,7 @@ body {
   height:100%;
   width: 100%;
   position:relative;
-  background-image: url('/images/bg-pattern-desktop.svg');
+  background-image: url('./images/bg-pattern-desktop.svg');
   background-repeat:no-repeat;
   background-position: 120% 70%;
 }
@@ -167,7 +167,7 @@ body {
   }
 
   .graphic-container {
-    background-image: url('/images/bg-pattern-mobile.svg');
+    background-image: url('./images/bg-pattern-mobile.svg');
     background-position:45% ;
   }
 
