@@ -7,4 +7,4 @@ The link to challenge is here (https://www.frontendmentor.io/challenges/faq-acco
 
 # Remarks
 
-This challenge tests the ability of working with overlapping images and javascript skills
+This challenge tests the ability of working with image positioning and javascript interactivity
