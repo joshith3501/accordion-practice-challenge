@@ -119,6 +119,8 @@ body {
 }
 
 .question > img {
+  
+  transition: 0.1s;
   margin-right:5px;
   height: 8px;
   display: block;
